@@ -1,0 +1,30 @@
+{
+  "eepl.target.device": {
+    "description": "Desktop [Windows x64]",
+    "devManId": 0,
+    "devName": "x64-windows",
+    "frameWorkVerA": 0,
+    "frameWorkVerB": 1,
+    "frameworkSize": 63488,
+    "periphInfo": {
+      "isDesktop": true,
+      "isResourcesInternal": true,
+      "aoCount": 0,
+      "relayCount": 0,
+      "uartCount": 0,
+      "uiCount": 0,
+      "flashSize": 0,
+      "ramSize": 0,
+      "flashPageSize": 256
+    },
+    "triplet": "x86_64-pc-windows-msvc",
+    "runtime": "",
+    "stdlib": "",
+    "includePaths": [
+      "-libpath:C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/lib/x64",
+      "-libpath:C:/Program Files (x86)/Windows Kits/10/Lib/10.0.22000.0/um/x64"
+    ],
+    "stdlibs": ["user32.lib"],
+    "pathToFile": "c:\\Users\\Fedasa Eyob\\.eec\\targets\\x64-windows\\targetInfo.json"
+  }
+}

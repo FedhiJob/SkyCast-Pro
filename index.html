@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkyCast-Pro 🌤</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app-container">
+      <header>
+        <img src="logo.png" alt="SkyCast-Pro Logo" class="logo" />
+        <h1>🌤 SkyCast-Pro</h1>
+        <p class="tagline">Premium Weather Experience</p>
+      </header>
+
+      <main>
+        <!-- Search -->
+        <div class="search-box">
+          <input
+            type="text"
+            id="cityInput"
+            placeholder="Search for a city..."
+          />
+          <button id="searchBtn">Search</button>
+        </div>
+
+        <!-- Current Weather -->
+        <div id="weatherResult" class="weather-card hidden">
+          <h2 id="cityName"></h2>
+          <p id="description" class="description"></p>
+          <div class="weather-info">
+            <img id="weatherIcon" src="" alt="Weather Icon" />
+            <div>
+              <h3><span id="temperature"></span>°C</h3>
+              <p>Humidity: <span id="humidity"></span>%</p>
+              <p>Wind: <span id="wind"></span> m/s</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Forecast -->
+        <div id="forecast" class="forecast hidden">
+          <h3>5-Day Forecast</h3>
+          <div id="forecastCards" class="forecast-cards"></div>
+        </div>
+
+        <!-- Error -->
+        <p id="errorMessage" class="error"></p>
+      </main>
+
+      <footer>
+        <p>Made with ❤️ by <strong>Fedasa Eyob</strong></p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
