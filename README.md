@@ -16,8 +16,8 @@ It shows real-time weather for your current location 🌍 (using Geolocation) or
 
 🚀 Demo
 
-🔗 Live Demo on Vercel
- <!-- replace with your Vercel/Netlify/GitHub Pages link -->
+🔗 [Live Demo on Vercel](https://sky-cast-r1ai3ml7o-fedasa-eyobs-projects.vercel.app/)
+ 
 
 🖼 Screenshots
 🌍 Desktop View
