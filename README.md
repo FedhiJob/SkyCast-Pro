@@ -8,21 +8,21 @@ It shows real-time weather for your current location 🌍 (using Geolocation) or
 ✨ Features
 
 ✅ Real-time weather updates (temperature, humidity, wind, description)
+
 ✅ Auto-detects your location using Geolocation API
+
 ✅ Search for weather by city name
+
 ✅ 5-Day Forecast with icons and details
+
 ✅ Beautiful modern UI (mobile-first, responsive, and clean design)
+
 ✅ Built with pure JavaScript (no frameworks needed)
+
 
 🚀 Demo
 
 🔗 [Live Demo on Vercel](https://sky-cast-r1ai3ml7o-fedasa-eyobs-projects.vercel.app/)
- 
-
-🖼 Screenshots
-🌍 Desktop View
-
-📱 Mobile View
 
 🛠 Tech Stack
 
